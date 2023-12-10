@@ -1,9 +1,10 @@
 import React from 'react'
+import LandingPage from './Pages/LandingPage/LandingPage'
 
 const App = () => {
   return (
     <div>
-      <div className="text-blue-400">React Tailwind</div>
+      <LandingPage/>
     </div>
   )
 }
